@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: Tahoma,Verdana,Segoe,sans-serif; 
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: center;
+
+    background-color: #1F2937;
+    color: white;
+
+    padding: 25px 0;
+}
+
+.nav-items {
+    /* border: 1px solid #fff; */
+    width: 900px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo {
+    margin-right: auto;
+
+    font-size: 24px;
+    font-weight: 400;
+    color: #F9FAF8;
+}
+
+.nav-two {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.home,
+.about,
+.contact {
+    color: #E5E7EB;
+    font-size: 16px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+
+    background-color: #1F2937;
+}
+
+.header {
+    width: 900px;
+    height: 400px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-text {
+    width: 400px;
+    height: 250px;
+    border: 1px solid #fff;
+}
+
+.header-image {
+    width: 400px;
+    height: 250px;
+    border: 1px solid #fff;
+}
+
+.photo-grid-container {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+
+    flex-wrap: wrap;
+    padding-bottom: 75px;
+}
+
+.photo-header {
+
+    background-color: white;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bold;
+
+    flex-shrink: 0;
+    flex-basis: 100%;
+
+    text-align: center;
+    padding-top: 35px;
+}
+
+.photo-grid {
+    /* border: 1px solid black; */
+    width: 800px;
+    display: flex;
+    justify-content: center;
+
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+
+    justify-content: space-evenly;
+
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.grid-item {
+    border: 4px solid #3882F6;
+    border-radius: 25px;
+    width: 150px;
+    height: 150px;
+
+}
+
+.quote-section {
+    display: flex;
+    justify-content: center;
+
+    background-color: #E5E7EB;
+    
+}
+
+.quote {
+    /* border: 1px solid black; */
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 800px;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.quote-body {
+    color: #1F2937;
+    font-size: 32px;
+    font-style: italic;
+
+    text-align: justify;
+
+    flex-shrink: 0;
+    flex-basis: 100%;
+
+}
+
+.quote-ini {
+    /* border: 1px solid black; */
+    margin-left: auto;
+}
